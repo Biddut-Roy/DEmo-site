@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color:rgb(214, 213, 213);
+    text-align: center;
+    align-items: center;
+
+}
+.logo{
+    
+   
+}
+#logos{
+    height: 30px;  
+}
+.menu{
+    padding-left: 2px;
+   display: flex;
+   font-size: 18px; 
+}
+.menu-li{
+    padding:  7px;
+    cursor: pointer;
+}
+.menu-li:hover{
+    color: blue;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    height: 100vh;
+    background-image: url("../pic/background.png"),linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+    
+}
+.container-about{
+
+}
+.button{
+    background-color: yellow;
+    color: red;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+.container-logo{
+    
+    
+}
+#container-logos{
+    width: 500px;
+}
+.selection{
+    
+}
+
+.selection1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    color: aliceblue;
+    height: 100vh;
+    background-image: white;
+    color: black ;
+}
+.about{
+    text-align: center;
+    padding-top: 20px;
+}
+.selection-about{
+    color: black;
+    
+}
+.button{
+    background-color: yellow;
+    color: red;
+    padding: 5px;
+    margin-top: 10px;
+
+}
+.selection-logo{
+    
+    
+}
+#selection-logos{
+    width: 500px;
+}
